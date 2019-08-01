@@ -1,0 +1,8 @@
+prefix=/home/davidhan/catkin_ws/src/davidhan_mono_slam/cmake-build-debug/devel
+
+Name: davidhan_mono_slam
+Description: Description of davidhan_mono_slam
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/davidhan/catkin_ws/src/davidhan_mono_slam/cmake-build-debug/devel/lib 
+Requires: 
