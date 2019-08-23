@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/davidhan/catkin_ws/src/davidhan_mono_slam/src/Patch.hpp
+opencv2/opencv.hpp
+-
+eigen3/Eigen/Dense
+-
+
 /home/davidhan/catkin_ws/src/davidhan_mono_slam/src/david_RosVSLAMRansac.cpp
 iostream
 -
@@ -23,6 +29,20 @@ geometry_msgs/Pose.h
 -
 image_transport/image_transport.h
 -
+vslamRansac.h
+/home/davidhan/catkin_ws/src/davidhan_mono_slam/src/vslamRansac.h
+
+/home/davidhan/catkin_ws/src/davidhan_mono_slam/src/vslamRansac.cpp
+vslamRansac.h
+/home/davidhan/catkin_ws/src/davidhan_mono_slam/src/vslamRansac.h
+
+/home/davidhan/catkin_ws/src/davidhan_mono_slam/src/vslamRansac.h
+opencv2/opencv.hpp
+-
+opencv2/imgproc.hpp
+-
+Patch.hpp
+/home/davidhan/catkin_ws/src/davidhan_mono_slam/src/Patch.hpp
 
 /opt/ros/kinetic/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h

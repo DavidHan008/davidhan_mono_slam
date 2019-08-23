@@ -42,9 +42,7 @@ void imageCb(const sensor_msgs::ImageConstPtr& msg)
     cv::Mat mid_frame;//中间的过程帧
     int scale=1;
     cv::resize(cv_ptr->image,cv_ptr->image,cv::Size(cv_ptr->image.size().width/scale,cv_ptr->image.size().height/scale));
-
     //经历了种种算法
-
     // 特征点的提取
     if(first)
     {
@@ -59,12 +57,10 @@ void imageCb(const sensor_msgs::ImageConstPtr& msg)
         slam.update();
         slam.predict();
         mid_frame=slam.returnImageDrawed();
-
     }
 
 
-
-   // final_cv_ptr=cv_ptr;
+     final_cv_ptr=cv_ptr;
     image_pub.publish(final_cv_ptr->toImageMsg());
 
     // 用于测试图像是否订阅
@@ -72,9 +68,6 @@ void imageCb(const sensor_msgs::ImageConstPtr& msg)
 
 
 };
-
-
-
 
 
 int main(int argc,char **argv)

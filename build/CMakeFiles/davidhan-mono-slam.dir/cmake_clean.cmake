@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/davidhan-mono-slam.dir/src/david_RosVSLAMRansac.cpp.o"
+  "CMakeFiles/davidhan-mono-slam.dir/src/vslamRansac.cpp.o"
   "devel/lib/davidhan_mono_slam/davidhan-mono-slam.pdb"
   "devel/lib/davidhan_mono_slam/davidhan-mono-slam"
 )

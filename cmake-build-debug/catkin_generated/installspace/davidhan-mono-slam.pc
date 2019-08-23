@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: davidhan-mono-slam
-Description: Description of davidhan-mono-slam
-Version: 0.0.1
-Cflags: 
-Libs: -L/usr/local/lib 
-Requires: 

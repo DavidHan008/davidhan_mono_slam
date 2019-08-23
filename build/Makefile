@@ -855,6 +855,33 @@ src/david_RosVSLAMRansac.cpp.s:
 	$(MAKE) -f CMakeFiles/davidhan-mono-slam.dir/build.make CMakeFiles/davidhan-mono-slam.dir/src/david_RosVSLAMRansac.cpp.s
 .PHONY : src/david_RosVSLAMRansac.cpp.s
 
+src/vslamRansac.o: src/vslamRansac.cpp.o
+
+.PHONY : src/vslamRansac.o
+
+# target to build an object file
+src/vslamRansac.cpp.o:
+	$(MAKE) -f CMakeFiles/davidhan-mono-slam.dir/build.make CMakeFiles/davidhan-mono-slam.dir/src/vslamRansac.cpp.o
+.PHONY : src/vslamRansac.cpp.o
+
+src/vslamRansac.i: src/vslamRansac.cpp.i
+
+.PHONY : src/vslamRansac.i
+
+# target to preprocess a source file
+src/vslamRansac.cpp.i:
+	$(MAKE) -f CMakeFiles/davidhan-mono-slam.dir/build.make CMakeFiles/davidhan-mono-slam.dir/src/vslamRansac.cpp.i
+.PHONY : src/vslamRansac.cpp.i
+
+src/vslamRansac.s: src/vslamRansac.cpp.s
+
+.PHONY : src/vslamRansac.s
+
+# target to generate assembly for a file
+src/vslamRansac.cpp.s:
+	$(MAKE) -f CMakeFiles/davidhan-mono-slam.dir/build.make CMakeFiles/davidhan-mono-slam.dir/src/vslamRansac.cpp.s
+.PHONY : src/vslamRansac.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -922,6 +949,9 @@ help:
 	@echo "... src/david_RosVSLAMRansac.o"
 	@echo "... src/david_RosVSLAMRansac.i"
 	@echo "... src/david_RosVSLAMRansac.s"
+	@echo "... src/vslamRansac.o"
+	@echo "... src/vslamRansac.i"
+	@echo "... src/vslamRansac.s"
 .PHONY : help
 
 
